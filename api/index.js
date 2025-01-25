@@ -5,7 +5,7 @@ const app = express();
 app.use(express.json());
 
 app.get("/", function (req, res) {
-  res.json({ msg: "hello world test" });
+  res.json({ msg: "hello world changw" });
 });
 
 app.listen(3000, () => console.log("Server ready on port 3000."));
